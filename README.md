@@ -1,30 +1,30 @@
 # RT
-4th project of [42 School](https://www.42.fr) Computer Graphics Branch.
+4e projet de la branche graphique du [cursus 42](https://www.42.fr).
 
-This project was completed by a team of 4 students.
+Ce projet doit être complété par un groupe de 4 élèves.
 
 ## Description
 
-The goal of this project is to generate images using the RayTracing method.
+L'objectif de ce projet est de générer des images de synthèse en se basant sur la méthode du Raytracing (lancer de rayon).
 
-Theses computer generated images represents a scene. This scene is viewed from a specific position and a specific angle,  defined by simple geometric objects and has a lighting system.
+Ces images de synthèses représentent une scène. Cette dernière peut être observée depuis différent angles/positions, définie par des objets simples/complexes ainsi qu'un système de lumières.
 
-## Features
+## Options
 
-- Basic raytracer : 4 objects (sphere, cylinder, cone, plane), lightning, multi-sport, shining, shading
-- Parallel lightning
-- Reflexion (the % of reflexion can be modified in the config file)
-- Composed objects : a cube
-- Native objects: ellipse, hyperboloid
-- Limited objets: basic slicing, rotation, unique slicing method for each object
-- Exotic objects: torus
-- UI environment : simple interface, live modifications, auto-generate scenes
-- Options : config file, ambient light (can be modified in the config file)
-- Textures : apply on 4 simple objects, scale, offset, use SDL_image library to upload files (.bmp, .jpg, .png...)
-- Perturbations : checker, stripes, rainbow, woodgrains, wavy, squares, sparkle, Perlin noise variations (simple, marble, wood)
-- Classical visual effect : antialiasing, sepia filter, black and white filter
-- Technical visual effect : multithread, screenshot
-- Other : video recording, music
+- Raytracer classique : 4 objets (sphere, cylindre, cone, plan), lumière, multi-spot, brillance, ombre
+- Lumière parallèle
+- Reflexion (Le % de réflexion peut être modifié dans le fichier de configuration)
+- Objet composé : le cube
+- Objets natifs: l'ellipse, la parabole
+- Objets limités: découpe basique, rotation, Découpe propre à chaque objets.
+- Objets exotique: le torus
+- Environnement UI : interface graphique simple, modification en temps réel, génération automatique des scènes
+- Options : fichier de configuration, lmière ambiante (peut être modifié dans le fichier de configuration)
+- Textures : Appliqué aux 4 objets simple, mise à l'échelle, offset, utilisation de la librairie SDL_image pour upload les fichiers (.bmp, .jpg, .png...)
+- Perturbations : rayures, arc-en-ciel, woodgrains, ondulation, damier, variation du bruit de Perlin (simple, marbre, bois)
+- Effet visuel classic : antialiasing, filtre sépia, filtre noir & blanc
+- Effet visuel technique : multithread, screenshot intégré
+- Autre : enregistrement vidéo intégré, musique
 
 ## Usage
 
@@ -33,7 +33,7 @@ $> make
 $> ./RT file/file.rt
 ```
 
-## Keys
+## Contrôles
 
 <table width="100%">
   <thead>
@@ -48,44 +48,44 @@ $> ./RT file/file.rt
   </thead>
 <tbody>
   <tr>
-    <td valign="top" height="30px">Exit the program</td>
+    <td valign="top" height="30px">Quitter le programme</td>
     <td valign="top" align="center"><kbd>&nbsp;esc&nbsp;</kbd></td>
   </tr>
-    <td valign="top" height="30px">Sepia filter</td>
+    <td valign="top" height="30px">Filtre Sepia</td>
     <td valign="top" align="center"><kbd>&nbsp;s&nbsp;</kbd> <kbd>&nbsp;m&nbsp;</kbd></td>
   </tr>
   </tr>
-    <td valign="top" height="30px">Black and White filter</td>
+    <td valign="top" height="30px">Flitre noir & blanc</td>
     <td valign="top" align="center"><kbd>&nbsp;n&nbsp;</kbd> <kbd>&nbsp;m&nbsp;</kbd></td>
   </tr>
-    <td valign="top" height="30px">Change config file</td>
+    <td valign="top" height="30px">Changer de fichier de configuration</td>
     <td valign="top" align="center">
       <kbd>&nbsp;1&nbsp;</kbd><kbd>&nbsp;2&nbsp;</kbd><kbd>&nbsp;3&nbsp;</kbd>            <kbd>&nbsp;4&nbsp;</kbd><kbd>&nbsp;5&nbsp;</kbd><kbd>&nbsp;6&nbsp;</kbd>
       <kbd>&nbsp;7&nbsp;</kbd><kbd>&nbsp;8&nbsp;</kbd><kbd>&nbsp;9&nbsp;</kbd>
     </td>
   </tr>
   </tr>
-    <td valign="top" height="30px">Left click on the object : move along the X or Y axis by moving the mouse left/right up/down </td>
+    <td valign="top" height="30px">Clic gauche sur un objet : déplacez l'axe X ou Y en déplacant la souris de gauche à droite & de haut en bas </td>
     <td align="center"><img src="./img/left-click.png" width="35" height="35" alt="left-click"><img src="./img/cursor.png" width="35" height="35" alt="cursor"></td>
   </tr>
   </tr>
-    <td valign="top" height="30px">Left click on the object : scroll with the mouse wheel to move along the Z axis</td>
+    <td valign="top" height="30px">Clic droit sur un objet : utilisé la molette de soris pour faire varier l'axe Z </td>
     <td align="center"><img src="./img/left-click.png" width="35" height="35" alt="mouse"><img src="./img/mouse.png" width="35" height="35" alt="mouse"></td>
   </tr>
   </tr>
-    <td valign="top" height="30px">Right click and move the mouse to move the camera direction</td>
+    <td valign="top" height="30px">Clic droit + mouvement de souris pour déplacer la direction de la caméra </td>
     <td align="center"><img src="./img/right-click.png" width="35" height="35" alt="right-click"></td>
   </tr>
   </tbody>
 </table>
 
-## Output examples
+## Exemples imagés
 
 ### Reflexion
 <img src="./img/reflexion1.png" width="800" height="600" alt="Reflexion 1">
 <img src="./img/reflexion2.png" width="800" height="600" alt="Reflexion 2">
 
-### Color perturbations
+### Perturbation de couleurs
 <img src="./img/perturbations1.png" width="800" height="600" alt="Perturbations 1">
 <img src="./img/perturbations2.png" width="800" height="600" alt="Perturbations 2">
 
@@ -96,11 +96,11 @@ $> ./RT file/file.rt
 ### Torre
 <img src="./img/torus.png" width="800" height="600" alt="Torus">
 
-### Hyperboloid
+### Parabole
 <img src="./img/hyperboloid.png" width="800" height="600" alt="Hyperboloid">
 
 ### Cube
 <img src="./img/cube.png" width="800" height="600" alt="Cube">
 
-### Limit object
+### Objet limité
 <img src="./img/limit-cyl.png" width="800" height="600" alt="Limit cylinder">
