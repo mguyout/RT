@@ -22,7 +22,7 @@ Ces images de synthèses représentent une scène. Cette dernière peut être ob
 - Options : fichier de configuration, lumière ambiante (peut être modifié dans le fichier de configuration)
 - Textures : Appliqué aux 4 objets simples, mise à l'échelle, offset, utilisation de la librairie SDL_image pour upload les fichiers (.bmp, .jpg, .png...)
 - Perturbations : rayures, arc-en-ciel, woodgrains, ondulation, damier, variation du bruit de Perlin (simple, marbre, bois)
-- Effet visuel classic : antialiasing, filtre sépia, filtre noir & blanc
+- Effet visuel classique : antialiasing, filtre sépia, filtre noir & blanc
 - Effet visuel technique : multithread, screenshot intégré
 - Autre : enregistrement vidéo intégré, musique
 
