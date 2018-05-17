@@ -69,7 +69,7 @@ $> ./RT file/file.rt
     <td align="center"><img src="./img/left-click.png" width="35" height="35" alt="left-click"><img src="./img/cursor.png" width="35" height="35" alt="cursor"></td>
   </tr>
   </tr>
-    <td valign="top" height="30px">Clic droit sur un objet : utilisé la molette de soris pour faire varier l'axe Z </td>
+    <td valign="top" height="30px">Clic droit sur un objet : utilisé la molette de la souris pour faire varier l'axe Z </td>
     <td align="center"><img src="./img/left-click.png" width="35" height="35" alt="mouse"><img src="./img/mouse.png" width="35" height="35" alt="mouse"></td>
   </tr>
   </tr>
