@@ -13,10 +13,10 @@ Ces images de synthèses représentent une scène. Cette dernière peut être ob
 
 - Raytracer classique : 4 objets (sphere, cylindre, cone, plan), lumière, multi-spot, brillance, ombre
 - Lumière parallèle
-- Reflexion (Le % de réflexion peut être modifié dans le fichier de configuration)
+- Reflexion (le % de réflexion peut être modifié dans le fichier de configuration)
 - Objet composé : le cube
 - Objets natifs: l'ellipse, la parabole
-- Objets limités: découpe basique, rotation, Découpe propre à chaque objets.
+- Objets limités: découpe basique, rotation, découpe propre à chaque objets.
 - Objets exotique: le torus
 - Environnement UI : interface graphique simple, modification en temps réel, génération automatique des scènes
 - Options : fichier de configuration, lmière ambiante (peut être modifié dans le fichier de configuration)
