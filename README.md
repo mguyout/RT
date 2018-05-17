@@ -20,7 +20,7 @@ Ces images de synthèses représentent une scène. Cette dernière peut être ob
 - Objets exotique: le torus
 - Environnement UI : interface graphique simple, modification en temps réel, génération automatique des scènes
 - Options : fichier de configuration, lmière ambiante (peut être modifié dans le fichier de configuration)
-- Textures : Appliqué aux 4 objets simple, mise à l'échelle, offset, utilisation de la librairie SDL_image pour upload les fichiers (.bmp, .jpg, .png...)
+- Textures : Appliqué aux 4 objets simples, mise à l'échelle, offset, utilisation de la librairie SDL_image pour upload les fichiers (.bmp, .jpg, .png...)
 - Perturbations : rayures, arc-en-ciel, woodgrains, ondulation, damier, variation du bruit de Perlin (simple, marbre, bois)
 - Effet visuel classic : antialiasing, filtre sépia, filtre noir & blanc
 - Effet visuel technique : multithread, screenshot intégré
