@@ -7,7 +7,7 @@ Ce projet doit être complété par un groupe de 4 élèves.
 
 L'objectif de ce projet est de générer des images de synthèse en se basant sur la méthode du Raytracing (lancer de rayon).
 
-Ces images de synthèses représentent une scène. Cette dernière peut être observée depuis différent angles/positions, définie par des objets simples/complexes ainsi qu'un système de lumières.
+Ces images de synthèses représentent une scène. Cette dernière peut être observée depuis différent angles/positions, définie par des objets simples/complexes ainsi que d'un système de lumières.
 
 ## Options
 
